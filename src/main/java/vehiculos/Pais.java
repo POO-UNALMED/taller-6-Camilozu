@@ -16,7 +16,7 @@ public class Pais {
 	public static Pais paisMasVendedor() {
 		int mayor = 0;
 		Pais paisVendedor = null;
-		for (int i= 0; i < pais.size(); ) {
+		for (int i= 0; i < pais.size(); i++ ) {
 		if (pais.get(i).ventasPais > mayor) {
 			mayor = pais.get(i).ventasPais;
 			paisVendedor = pais.get(i);

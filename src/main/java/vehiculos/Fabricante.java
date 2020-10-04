@@ -18,7 +18,7 @@ public class Fabricante {
 	public static Fabricante fabricaMayorVentas() {
 		int mayor = 0;
 		Fabricante fabricaVendedor = null;
-		for (int i= 0; i < fabricante.size(); ) {
+		for (int i= 0; i < fabricante.size(); i++) {
 		if (fabricante.get(i).ventasFabricante > mayor) {
 			mayor = fabricante.get(i).ventasFabricante;
 			fabricaVendedor = fabricante.get(i);
